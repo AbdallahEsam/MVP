@@ -11,7 +11,6 @@
 		F2BA381D2620390300A2D167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA381C2620390300A2D167 /* AppDelegate.swift */; };
 		F2BA38262620390600A2D167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BA38252620390600A2D167 /* Assets.xcassets */; };
 		F2BA38292620390600A2D167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BA38272620390600A2D167 /* LaunchScreen.storyboard */; };
-		F2BA386826203BB800A2D167 /* AlertViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA385E26203BB800A2D167 /* AlertViewHandler.swift */; };
 		F2BA387926203C9A00A2D167 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA386C26203C9A00A2D167 /* SwiftyJSON.swift */; };
 		F2BA387A26203C9A00A2D167 /* BaseCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA386D26203C9A00A2D167 /* BaseCodable.swift */; };
 		F2BA387B26203C9A00A2D167 /* UploadDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA386E26203C9A00A2D167 /* UploadDataModel.swift */; };
@@ -24,7 +23,6 @@
 		F2BA388326203C9A00A2D167 /* URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA387726203C9A00A2D167 /* URLRequestConvertible.swift */; };
 		F2BA388426203C9A00A2D167 /* JSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA387826203C9A00A2D167 /* JSONCodable.swift */; };
 		F2BA388826203EA600A2D167 /* Error+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA388726203EA600A2D167 /* Error+.swift */; };
-		F2BA38922620423B00A2D167 /* BaseViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA388D2620423B00A2D167 /* BaseViewProtocol.swift */; };
 		F2BA38932620423B00A2D167 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA388F2620423B00A2D167 /* UserData.swift */; };
 		F2BA389D262042A200A2D167 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA389C262042A200A2D167 /* Color+.swift */; };
 		F2BA38A4262042E700A2D167 /* LoadingReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2BA38A1262042E700A2D167 /* LoadingReusableView.xib */; };
@@ -42,6 +40,20 @@
 		F2BA38E62620500E00A2D167 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BA38E52620500E00A2D167 /* Colors.xcassets */; };
 		F2BA38E92620516900A2D167 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA38E82620516900A2D167 /* String+.swift */; };
 		F2BA38EC2620523200A2D167 /* Optional+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA38EB2620523200A2D167 /* Optional+.swift */; };
+		F2BA391F262072D700A2D167 /* NoInterNet.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2BA3913262072D700A2D167 /* NoInterNet.xib */; };
+		F2BA3920262072D700A2D167 /* NoInterNetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA3915262072D700A2D167 /* NoInterNetView.swift */; };
+		F2BA39312620733B00A2D167 /* NoDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA392B2620733B00A2D167 /* NoDataViewController.swift */; };
+		F2BA39322620733B00A2D167 /* NoDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2BA392C2620733B00A2D167 /* NoDataView.xib */; };
+		F2BA39332620733B00A2D167 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA392F2620733B00A2D167 /* TableViewExtension.swift */; };
+		F2BA39552620741500A2D167 /* NoInternetExtension+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA39542620741500A2D167 /* NoInternetExtension+.swift */; };
+		F2BA3959262077AC00A2D167 /* NoInternetEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA3958262077AC00A2D167 /* NoInternetEnum.swift */; };
+		F2BA395C262079C200A2D167 /* LoaderViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA395B262079C200A2D167 /* LoaderViewProtocol.swift */; };
+		F2BA395F262079EE00A2D167 /* AlertHandlerViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA395E262079EE00A2D167 /* AlertHandlerViewProtocol.swift */; };
+		F2BA396226207A1500A2D167 /* AppErrorViewsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA396126207A1500A2D167 /* AppErrorViewsProtocol.swift */; };
+		F2BA396726207B1E00A2D167 /* AlertViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA396626207B1E00A2D167 /* AlertViewHandler.swift */; };
+		F2BA396A26207B6000A2D167 /* AlertViewThem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA396926207B6000A2D167 /* AlertViewThem.swift */; };
+		F2BA397A26207BDC00A2D167 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA397926207BDC00A2D167 /* AlertView.swift */; };
+		F2BA397D26207D4A00A2D167 /* HandlerErrorViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA397C26207D4A00A2D167 /* HandlerErrorViewProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +65,6 @@
 		F2BA38252620390600A2D167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2BA38282620390600A2D167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2BA382A2620390600A2D167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2BA385E26203BB800A2D167 /* AlertViewHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewHandler.swift; sourceTree = "<group>"; };
 		F2BA386C26203C9A00A2D167 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		F2BA386D26203C9A00A2D167 /* BaseCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCodable.swift; sourceTree = "<group>"; };
 		F2BA386E26203C9A00A2D167 /* UploadDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadDataModel.swift; sourceTree = "<group>"; };
@@ -66,7 +77,6 @@
 		F2BA387726203C9A00A2D167 /* URLRequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestConvertible.swift; sourceTree = "<group>"; };
 		F2BA387826203C9A00A2D167 /* JSONCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONCodable.swift; sourceTree = "<group>"; };
 		F2BA388726203EA600A2D167 /* Error+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+.swift"; sourceTree = "<group>"; };
-		F2BA388D2620423B00A2D167 /* BaseViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewProtocol.swift; sourceTree = "<group>"; };
 		F2BA388F2620423B00A2D167 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		F2BA389C262042A200A2D167 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		F2BA38A1262042E700A2D167 /* LoadingReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingReusableView.xib; sourceTree = "<group>"; };
@@ -84,6 +94,20 @@
 		F2BA38E52620500E00A2D167 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		F2BA38E82620516900A2D167 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		F2BA38EB2620523200A2D167 /* Optional+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+.swift"; sourceTree = "<group>"; };
+		F2BA3914262072D700A2D167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NoInterNet.xib; sourceTree = "<group>"; };
+		F2BA3915262072D700A2D167 /* NoInterNetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoInterNetView.swift; sourceTree = "<group>"; };
+		F2BA392B2620733B00A2D167 /* NoDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoDataViewController.swift; sourceTree = "<group>"; };
+		F2BA392D2620733B00A2D167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NoDataView.xib; sourceTree = "<group>"; };
+		F2BA392F2620733B00A2D167 /* TableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		F2BA39542620741500A2D167 /* NoInternetExtension+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoInternetExtension+.swift"; sourceTree = "<group>"; };
+		F2BA3958262077AC00A2D167 /* NoInternetEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetEnum.swift; sourceTree = "<group>"; };
+		F2BA395B262079C200A2D167 /* LoaderViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewProtocol.swift; sourceTree = "<group>"; };
+		F2BA395E262079EE00A2D167 /* AlertHandlerViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHandlerViewProtocol.swift; sourceTree = "<group>"; };
+		F2BA396126207A1500A2D167 /* AppErrorViewsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrorViewsProtocol.swift; sourceTree = "<group>"; };
+		F2BA396626207B1E00A2D167 /* AlertViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewHandler.swift; sourceTree = "<group>"; };
+		F2BA396926207B6000A2D167 /* AlertViewThem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewThem.swift; sourceTree = "<group>"; };
+		F2BA397926207BDC00A2D167 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		F2BA397C26207D4A00A2D167 /* HandlerErrorViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlerErrorViewProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,7 +204,9 @@
 		F2BA385D26203BB800A2D167 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				F2BA385E26203BB800A2D167 /* AlertViewHandler.swift */,
+				F2BA396526207B0400A2D167 /* AlertViewHandler */,
+				F2BA39282620733B00A2D167 /* No Data */,
+				F2BA3910262072D700A2D167 /* No Internet View */,
 				F2BA38A82620437400A2D167 /* MainButton.swift */,
 			);
 			path = CustomViews;
@@ -201,7 +227,6 @@
 				F2BA387726203C9A00A2D167 /* URLRequestConvertible.swift */,
 				F2BA387826203C9A00A2D167 /* JSONCodable.swift */,
 				F2BA38AB262044AD00A2D167 /* AppResponse.swift */,
-				F2BA38AE2620451200A2D167 /* HandleResponseError.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -238,7 +263,11 @@
 		F2BA388C2620423B00A2D167 /* BaseProtocols */ = {
 			isa = PBXGroup;
 			children = (
-				F2BA388D2620423B00A2D167 /* BaseViewProtocol.swift */,
+				F2BA395B262079C200A2D167 /* LoaderViewProtocol.swift */,
+				F2BA395E262079EE00A2D167 /* AlertHandlerViewProtocol.swift */,
+				F2BA396126207A1500A2D167 /* AppErrorViewsProtocol.swift */,
+				F2BA397C26207D4A00A2D167 /* HandlerErrorViewProtocol.swift */,
+				F2BA38AE2620451200A2D167 /* HandleResponseError.swift */,
 			);
 			path = BaseProtocols;
 			sourceTree = "<group>";
@@ -296,8 +325,7 @@
 		F2BA38D926204D6F00A2D167 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				F2BA38DB26204D7C00A2D167 /* presenter */,
-				F2BA38DA26204D7300A2D167 /* view */,
+				F2BA38F32620725100A2D167 /* Login */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -317,6 +345,46 @@
 				F2BA38E226204E4D00A2D167 /* LoginPresenter.swift */,
 			);
 			path = presenter;
+			sourceTree = "<group>";
+		};
+		F2BA38F32620725100A2D167 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F2BA38DB26204D7C00A2D167 /* presenter */,
+				F2BA38DA26204D7300A2D167 /* view */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F2BA3910262072D700A2D167 /* No Internet View */ = {
+			isa = PBXGroup;
+			children = (
+				F2BA3913262072D700A2D167 /* NoInterNet.xib */,
+				F2BA3915262072D700A2D167 /* NoInterNetView.swift */,
+				F2BA39542620741500A2D167 /* NoInternetExtension+.swift */,
+				F2BA3958262077AC00A2D167 /* NoInternetEnum.swift */,
+			);
+			path = "No Internet View";
+			sourceTree = "<group>";
+		};
+		F2BA39282620733B00A2D167 /* No Data */ = {
+			isa = PBXGroup;
+			children = (
+				F2BA392B2620733B00A2D167 /* NoDataViewController.swift */,
+				F2BA392C2620733B00A2D167 /* NoDataView.xib */,
+				F2BA392F2620733B00A2D167 /* TableViewExtension.swift */,
+			);
+			path = "No Data";
+			sourceTree = "<group>";
+		};
+		F2BA396526207B0400A2D167 /* AlertViewHandler */ = {
+			isa = PBXGroup;
+			children = (
+				F2BA396626207B1E00A2D167 /* AlertViewHandler.swift */,
+				F2BA396926207B6000A2D167 /* AlertViewThem.swift */,
+				F2BA397926207BDC00A2D167 /* AlertView.swift */,
+			);
+			path = AlertViewHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +430,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = F2BA38102620390300A2D167;
 			productRefGroup = F2BA381A2620390300A2D167 /* Products */;
@@ -381,8 +450,10 @@
 				F2BA38E62620500E00A2D167 /* Colors.xcassets in Resources */,
 				F2BA38DF26204D9400A2D167 /* LoginViewController.xib in Resources */,
 				F2BA38292620390600A2D167 /* LaunchScreen.storyboard in Resources */,
+				F2BA39322620733B00A2D167 /* NoDataView.xib in Resources */,
 				F2BA38A4262042E700A2D167 /* LoadingReusableView.xib in Resources */,
 				F2BA38262620390600A2D167 /* Assets.xcassets in Resources */,
+				F2BA391F262072D700A2D167 /* NoInterNet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +507,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2BA38DE26204D9400A2D167 /* LoginViewController.swift in Sources */,
+				F2BA397A26207BDC00A2D167 /* AlertView.swift in Sources */,
+				F2BA396226207A1500A2D167 /* AppErrorViewsProtocol.swift in Sources */,
 				F2BA38A6262042E700A2D167 /* LoaderExtentions.swift in Sources */,
+				F2BA3959262077AC00A2D167 /* NoInternetEnum.swift in Sources */,
+				F2BA397D26207D4A00A2D167 /* HandlerErrorViewProtocol.swift in Sources */,
+				F2BA39312620733B00A2D167 /* NoDataViewController.swift in Sources */,
 				F2BA38AF2620451200A2D167 /* HandleResponseError.swift in Sources */,
 				F2BA387B26203C9A00A2D167 /* UploadDataModel.swift in Sources */,
 				F2BA388826203EA600A2D167 /* Error+.swift in Sources */,
@@ -449,12 +525,15 @@
 				F2BA38EC2620523200A2D167 /* Optional+.swift in Sources */,
 				F2BA388326203C9A00A2D167 /* URLRequestConvertible.swift in Sources */,
 				F2BA38A5262042E700A2D167 /* LoadingReusableView.swift in Sources */,
+				F2BA3920262072D700A2D167 /* NoInterNetView.swift in Sources */,
 				F2BA38B62620469600A2D167 /* AuthRepo.swift in Sources */,
+				F2BA396A26207B6000A2D167 /* AlertViewThem.swift in Sources */,
+				F2BA39552620741500A2D167 /* NoInternetExtension+.swift in Sources */,
 				F2BA387A26203C9A00A2D167 /* BaseCodable.swift in Sources */,
+				F2BA395F262079EE00A2D167 /* AlertHandlerViewProtocol.swift in Sources */,
 				F2BA38D726204D2C00A2D167 /* AuthCoordinator.swift in Sources */,
+				F2BA39332620733B00A2D167 /* TableViewExtension.swift in Sources */,
 				F2BA38E326204E4D00A2D167 /* LoginPresenter.swift in Sources */,
-				F2BA38922620423B00A2D167 /* BaseViewProtocol.swift in Sources */,
-				F2BA386826203BB800A2D167 /* AlertViewHandler.swift in Sources */,
 				F2BA389D262042A200A2D167 /* Color+.swift in Sources */,
 				F2BA38E92620516900A2D167 /* String+.swift in Sources */,
 				F2BA381D2620390300A2D167 /* AppDelegate.swift in Sources */,
@@ -462,8 +541,10 @@
 				F2BA38932620423B00A2D167 /* UserData.swift in Sources */,
 				F2BA38A92620437400A2D167 /* MainButton.swift in Sources */,
 				F2BA388226203C9A00A2D167 /* UnknownType.swift in Sources */,
+				F2BA395C262079C200A2D167 /* LoaderViewProtocol.swift in Sources */,
 				F2BA388426203C9A00A2D167 /* JSONCodable.swift in Sources */,
 				F2BA387D26203C9A00A2D167 /* AuthService.swift in Sources */,
+				F2BA396726207B1E00A2D167 /* AlertViewHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +557,22 @@
 				F2BA38282620390600A2D167 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F2BA3913262072D700A2D167 /* NoInterNet.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BA3914262072D700A2D167 /* Base */,
+			);
+			name = NoInterNet.xib;
+			sourceTree = "<group>";
+		};
+		F2BA392C2620733B00A2D167 /* NoDataView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BA392D2620733B00A2D167 /* Base */,
+			);
+			name = NoDataView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

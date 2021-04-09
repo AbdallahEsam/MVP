@@ -1,5 +1,5 @@
 //
-//  BaseView.swift
+//  LoaderViewProtocol.swift
 //  MVP
 //
 //  Created by Abdallah Esam on 4/9/2021.
@@ -12,16 +12,6 @@ import NVActivityIndicatorView
 protocol LoaderViewProtocol: class {
     func startLoading()
     func stopLoading()
-}
-
-protocol AlertHandlerViewProtocol {
-    func showAlert(with message: String, title: AllertTitles)
-}
-
-extension AlertHandlerViewProtocol where Self: UIViewController {
-    func showAlert(with message: String, title: AllertTitles) {
-        AlertViewHandler().showAlert(message: message, title: title)
-    }
 }
 
 extension LoaderViewProtocol where Self: UIViewController {

@@ -1,48 +1,12 @@
 //
-//  AlertViewHandler.swift
+//  AlertView.swift
 //  MVP
 //
-//  Created by Abdallah Esam on 4/9/2021.
-//  Copyright © 2021 Abdallah Esam. All rights reserved.
+//  Created by Abdallah Esam on 09/04/2021.
 //
 
+
 import UIKit
-import AVFoundation
-
-enum Theme {
-    case success
-    case warning
-    case error
-}
-
-enum AllertTitles {
-    case error
-    case success
-    case warning
-    
-    var localize: String {
-        switch self {
-            case .error:
-                return "Error"
-            case .success:
-                return "Success"
-            case .warning:
-                return "Warning"
-        }
-    }
-    
-    var theme: Theme {
-        switch self {
-            case .error:
-                return .error
-            case .success:
-                return .success
-            case .warning:
-                return .warning
-        }
-    }
-}
-
 
 class AlertView: UIView {
     
@@ -50,13 +14,11 @@ class AlertView: UIView {
     private let messageLable = UILabel()
     
      var message: String
-     var title: AllertTitles
-     var type: Theme
+     var type: AllertThemes
     
-    init(message: String, title: AllertTitles) {
+    init(message: String, title: AllertThemes) {
         self.message = message
-        self.title = title
-        self.type = title.theme
+        self.type = title
         super.init(frame: .zero)
         setup()
     }
@@ -105,7 +67,7 @@ class AlertView: UIView {
     
 
     
-    fileprivate func layout() {
+     func layout() {
         messageOnlyLayOut()
     }
     
@@ -150,46 +112,5 @@ class AlertView: UIView {
     }
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-}
-
-class AlertViewHandler {
-    
-     var window = AppDelegate.shared.window!
-    
-    func showAlert(message: String, title: AllertTitles) {
-        
-      
-        let view = AlertView(message: message, title: title)
-       
-        for view in self.window.subviews {
-            if let subView = view as? AlertView{
-                if  subView.title == title , subView.message == message {
-                    UIView.animate(withDuration: 0.5) {
-                        subView.removeFromSuperview()
-                    }
-                    break
-
-                }else{
-                    UIView.animate(withDuration: 0.5) {
-                        subView.removeFromSuperview()
-                    }
-                    break
-                }
-                
-            }
-        }
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.alpha = 0
-        window.addSubview(view)
-        let height:CGFloat =  window.frame.maxY * 0.8 > 650 ? 107  : 90
-        NSLayoutConstraint.activate([
-            view.topAnchor.constraint(equalTo: window.topAnchor, constant: 0),
-            view.leadingAnchor.constraint(equalTo: window.leadingAnchor, constant: 0),
-            view.trailingAnchor.constraint(equalTo: window.trailingAnchor, constant: 0),
-            view.heightAnchor.constraint(equalToConstant:height)
-        ])
-        view.layout()
-        
     }
 }
