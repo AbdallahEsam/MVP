@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GTWalsheimPro-Bold.ttf">
+            <string>GTWalsheimPro-Bold</string>
+        </array>
+        <array key="GTWalsheimPro-Regular.ttf">
+            <string>GTWalsheimPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="MVP" customModuleProvider="target">
+            <connections>
+                <outlet property="emailTF" destination="ma4-k3-UBw" id="0B1-qk-X8P"/>
+                <outlet property="loginBtn" destination="EuG-ei-jUG" id="kXg-ck-23A"/>
+                <outlet property="passwordTF" destination="Crb-Cr-WaM" id="Ygp-5y-M0b"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="VrY-A6-MkK">
+                    <rect key="frame" x="20" y="386" width="374" height="124"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVp-OJ-fyS">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="54"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Kyh-bQ-YhV">
+                                    <rect key="frame" x="15" y="0.0" width="344" height="54"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ma4-k3-UBw">
+                                            <rect key="frame" x="0.0" y="7" width="344" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="2aB-sy-71g"/>
+                                            </constraints>
+                                            <color key="textColor" name="buttonTextColorDisable"/>
+                                            <fontDescription key="fontDescription" name="GTWalsheimPro-Regular" family="GT Walsheim Pro" pointSize="15"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                    <color key="value" name="WhiteLabel"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </textField>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="Kyh-bQ-YhV" firstAttribute="leading" secondItem="gVp-OJ-fyS" secondAttribute="leading" constant="15" id="AQ7-aa-9E4"/>
+                                <constraint firstAttribute="height" constant="54" id="EjP-on-H4q"/>
+                                <constraint firstAttribute="bottom" secondItem="Kyh-bQ-YhV" secondAttribute="bottom" id="ODa-mw-uMx"/>
+                                <constraint firstAttribute="trailing" secondItem="Kyh-bQ-YhV" secondAttribute="trailing" constant="15" id="hug-vq-9Oj"/>
+                                <constraint firstItem="Kyh-bQ-YhV" firstAttribute="top" secondItem="gVp-OJ-fyS" secondAttribute="top" id="yIs-xV-KRX"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qZs-Vo-8Gj">
+                            <rect key="frame" x="0.0" y="70" width="374" height="54"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="stw-wd-KPW">
+                                    <rect key="frame" x="15" y="0.0" width="344" height="54"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Crb-Cr-WaM">
+                                            <rect key="frame" x="0.0" y="7" width="344" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="7Pj-Rh-dV8"/>
+                                            </constraints>
+                                            <color key="textColor" name="buttonTextColorDisable"/>
+                                            <fontDescription key="fontDescription" name="GTWalsheimPro-Regular" family="GT Walsheim Pro" pointSize="15"/>
+                                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                    <color key="value" name="WhiteLabel"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </textField>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="stw-wd-KPW" firstAttribute="top" secondItem="qZs-Vo-8Gj" secondAttribute="top" id="316-Aw-YSe"/>
+                                <constraint firstAttribute="height" constant="54" id="NT8-MN-uaK"/>
+                                <constraint firstAttribute="trailing" secondItem="stw-wd-KPW" secondAttribute="trailing" constant="15" id="uBg-YY-QQw"/>
+                                <constraint firstAttribute="bottom" secondItem="stw-wd-KPW" secondAttribute="bottom" id="xq8-hj-VkT"/>
+                                <constraint firstItem="stw-wd-KPW" firstAttribute="leading" secondItem="qZs-Vo-8Gj" secondAttribute="leading" constant="15" id="zCp-V8-5de"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome Back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0c-ec-xav">
+                    <rect key="frame" x="20" y="321" width="374" height="35"/>
+                    <fontDescription key="fontDescription" name="GTWalsheimPro-Bold" family="GT Walsheim Pro" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EuG-ei-jUG" customClass="MainButton" customModule="MVP" customModuleProvider="target">
+                    <rect key="frame" x="102.5" y="560" width="209" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="209" id="JbE-kR-aZD"/>
+                        <constraint firstAttribute="height" constant="46" id="eeU-3Q-WZU"/>
+                    </constraints>
+                    <state key="normal" title="Login"/>
+                    <connections>
+                        <action selector="loginBtnSelected" destination="-1" eventType="touchUpInside" id="j8I-Oi-QyI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.79316454364949118" green="0.45901343936011907" blue="0.083801605358940545" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="VrY-A6-MkK" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="1Rh-yM-ukd"/>
+                <constraint firstItem="EuG-ei-jUG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6Xc-8O-WTv"/>
+                <constraint firstItem="VrY-A6-MkK" firstAttribute="top" secondItem="M0c-ec-xav" secondAttribute="bottom" constant="30" id="HG2-c9-vDm"/>
+                <constraint firstItem="M0c-ec-xav" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="KS5-nd-FpQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VrY-A6-MkK" secondAttribute="trailing" constant="20" id="RbI-SE-8yj"/>
+                <constraint firstItem="VrY-A6-MkK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="abb-HG-drc"/>
+                <constraint firstItem="VrY-A6-MkK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ecD-y1-UPE"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="M0c-ec-xav" secondAttribute="trailing" constant="20" id="jwB-MF-w0o"/>
+                <constraint firstItem="EuG-ei-jUG" firstAttribute="top" secondItem="VrY-A6-MkK" secondAttribute="bottom" constant="50" id="pkT-gx-sTQ"/>
+            </constraints>
+            <point key="canvasLocation" x="35" y="85"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="WhiteLabel">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="buttonTextColorDisable">
+            <color red="0.13699999451637268" green="0.1289999932050705" blue="0.13300000131130219" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
