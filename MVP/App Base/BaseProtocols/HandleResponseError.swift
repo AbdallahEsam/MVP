@@ -10,12 +10,12 @@ import Foundation
 import Alamofire
 
 protocol HandleResponseError {
-    func handleErrorResponse(error: AppError, view: HandlerErrorViewProtocol)
+    func handleErrorResponse(error: AppError, view: AlertHandlerViewProtocol)
 }
 
 extension HandleResponseError {
     
-    func handleErrorResponse( error: AppError, view: HandlerErrorViewProtocol) {
+    func handleErrorResponse( error: AppError, view: AlertHandlerViewProtocol) {
         switch error {
         case .cannotDecode:
             view.showAlert(with: error.description, title: .error)
